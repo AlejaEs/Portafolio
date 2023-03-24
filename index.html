@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!--SWIPER CSS-->
+		<link rel="stylesheet" href="swiper-bundle.min.css">
+		
+		<!--Estilos propios-->
+		<link rel="stylesheet" href="style.css" />		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+		<!-- ===== BOX ICONS ===== -->
+		<link
+			href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+		/>
+		<title>Portafolio | MalejaDev</title>
+	</head>
+
+	<body>
+		<!--=============== HEADER ===============-->
+		<header class="header" id="header">
+			<nav class="nav container">
+				<a href="#" class="nav__logo">Aleja</a>
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list grid">
+						<li class="nav__item">
+							<a href="#home" class="nav__link active-link">
+								<i class="uil uil-estate" title="Inicio"></i>
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#about" class="nav__link">
+								<i class="uil uil-user" title="Sobre mí"></i>
+								About
+							</a>
+						</li>
+						<li>
+							<a href="#skills" class="nav__link">
+								<i class="uil uil-file-alt" title="Habilidades"></i>
+								Skills
+							</a>
+						</li>
+						<li>
+							<a href="#projects" class="nav__link">
+								<i
+									class="uil uil-scenery"
+									title="Portafolio"
+								></i>
+								Projects
+							</a>
+						</li>
+						<li>
+							<a href="#contact" class="nav__link">
+								<i class="uil uil-comment-notes" title="Contacto"></i>
+								Contactme
+					</ul>
+						<!-- Close button -->
+					<div class="nav__close" id="nav-close">
+						<i class="uil uil-multiply"></i>
+					</div>
+				</div>
+
+				<div class="nav__buttons">
+					<!-- THEME CHANGE BUTTON -->
+					<i class="bx bx-moon change-theme" id="theme-button"></i>
+
+					<!-- Toggle button -->
+					<div class="nav__toggle" id="nav-toggle">
+						<i class='bx bx-menu-alt-right'></i>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!--===============MAIN===============-->
+		<main class="main">
+			<!--=============== HOME===============-->
+			<section class="home section" id="home">
+				<div class="home__container container grid section__border">
+					<div class="home__content grid">
+						<!--HOME SOCIAL MEDIA LINKS-->
+						<div class="home__social">
+							<span class="home__social-follow" align="center">🚀Follow me!</span>
+							<div class="home__social-links">
+								<a
+									class="home__social-link"
+									target="_blank"
+									href="https://www.linkedin.com/in/alejandraespinosaj/"
+								><i class="bx bxl-linkedin"></i>
+								</a>
+								<a
+									class="home__social-link"
+									target="_blank"
+									href="https://www.instagram.com/malejadev/"
+									><i class="bx bxl-instagram"></i>
+								</a>
+								<a
+									class="home__social-link"
+									target="_blank"
+									href="https://github.com/AlejaEs"
+									><i class="bx bxl-github"></i>
+								</a>
+								<a
+									class="home__social-link"
+									target="_blank"
+									href="https://twitter.com/CodeGirlDev"
+									><i class="bx bxl-twitter"></i>
+								</a>
+							</div>
+						</div>
+						<div class="home__img">
+							<img class="home__handle" src="assets/img/Avatar.png" alt="" />
+						</div>
+						<div class="home__data card_profile">
+							<h1 class="home__name">Hi, I'm Alejandra Espinosa</h1>
+							<h2 class="home__education">Web Developer💻</h2>
+							<p class="home__description">Experiencia en diseño web y conocimientos de desarrollo, produciendo un trabajo de calidad.</p>
+							<a href="#contact" class="button button--flex">Contact Me<i class="uil uil-message button__icon"></i></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--SOBRE MI-->
+			<section class="about section" id="about">
+				<h2 class="section__title">About</h2>
+				<span class="section__subtitle">My introdution</span>
+				<div class="about__container container grid">
+					<img
+						src="https://res.cloudinary.com/practicaldev/image/fetch/s--2bZIjPGC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/d4tvukbt5mra37cvwklk.gif"
+						alt=""
+						class="about__img"
+					/>
+					<p class="about__description">
+						Tecnóloga en análisis y desarrollo de software, estoy enfocada en el <b>desarrollo web</b>,
+						me gustaría poder brindarle a las personas una experiencia única, agradable al momento de navegar en páginas 
+						web que sean útiles y accesibles, todo esto con el uso de nuevas tecnologías.
+					</p>
+
+					<div class="about__buttons">
+						<a download="" href="#" class="button button--flex">
+							Download CV<i class="uil uil-download-alt button__icon"></i>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<!--=============== SKILLS===============-->
+			<section class="skills section" id="skills">
+				<h2 class="section__title">Skills</h2>
+				<span class="section__subtitle">My abilities</span>
+
+				<!--CARDS -->
+				<div class="skills__container container grid">
+					<!--Habilidades técnicas -->
+					<div class="skills__content">
+						<h3 class="skills__title">
+							<i class="uil uil-brackets-curly"></i>Web Developer
+						</h3>
+
+						<div class="skills__info">
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img
+										class="skill__icon"
+										title="Icono HTML5"
+										alt="Icono HTML5"
+										src="assets/img/html-1.svg"
+									/>
+								</div>	
+								<h3 class="skills__name">HTML</h3>
+								<!-- <span class="skills__subtitle">Intermediate</span> -->
+								</div>
+
+								<div class="skills__data">
+									<div class="skills__blob">
+										<img
+											class="skill__icon"
+											title="Icono CSS"
+											alt="Icono CSS"
+											src="assets/img/css-3.svg"
+										/>
+									</div>
+									<h3 class="skills__name">CSS</h3>
+									<!-- <span class="skills__subtitle">Intermediate</span> -->
+								</div>
+								<div class="skills__data">
+									<div class="skills__blob">
+										<img
+											class="skill__icon"
+											title="Icono JAVASCRIPT"
+											alt="Icono JAVASCRIPT"
+											src="assets/img/javascript-1.svg"
+										/>
+									</div>
+									<h3 class="skills__name">JavaScript</h3>
+									<!-- <span class="skills__subtitle">Basic</span> -->
+								</div>
+
+								<div class="skills__data">
+									<div class="skills__blob">
+										<img
+											class="skill__icon"
+											title="Icono GIT"
+											alt="Icono GIT"
+											src="assets/img/git-icon.svg"
+										/>
+									</div>		
+									<h3 class="skills__name">Git</h3>
+										<!-- <span class="skills__subtitle">Basic</span> -->									
+								</div>
+								<div class="skills__data">
+									<div class="skills__blob">
+										<img
+											class="skill__icon"
+											title="Icono TRELLO"
+											alt="Icono TRELLO"
+											src="assets/img/trello.svg"
+										/>
+									</div>										
+										<h3 class="skills__name">Trello</h3>
+										<!-- <span class="skills__subtitle">Basic</span> -->
+								</div>
+							</div>
+					</div>
+
+					<!--Habilidades blandas -->
+					<div class="skills__content">
+						<h3 class="skills__title">Soft Skills</h3>
+						<div class="skills__info">							
+								<div class="skills__data">
+									<div class="skills__blob">
+										<img
+											class="skill__icon"
+											title="Icono Organizado"
+											alt="Icono Organizado"
+											src="assets/img/sheet.png"
+										/>
+									</div>									
+									<h3 class="skills__name">Organizada</h3>
+								</div>							
+
+								<div class="skills__data">
+									<div class="skills__blob">
+										<img
+											class="skill__icon"
+											title="Icono Perseverante"
+											alt="Icono Perseverante"
+											src="assets/img/lucha.png"
+										/>
+									</div>							
+									<h3 class="skills__name">Perseverante</h3>
+								</div>
+							
+							<div class="skills__data">
+								<div class="skills__blob">
+									<img
+										class="skill__icon"
+										title="Icono trabajo equipo"
+										alt="Icono trabajo equipo"
+										src="assets/img/colaborativo.png"
+									/>
+								</div>
+								<h3 class="skills__name">Trabajo en equipo</h3>
+							</div>
+								
+							<div class="skills__data">
+									<div class="skills__blob">
+										<img
+											class="skill__icon"
+											title="Icono Asertivo"
+											alt="Icono Asertivo"
+											src="https://img.icons8.com/external-flat-wichaiwi/64/000000/external-confidence-generation-z-flat-wichaiwi.png"
+										/>
+									</div>
+									<h3 class="skills__name">Asertivo</h3>
+								</div>
+								
+								<div class="skills__data">
+									<div class="skills__blob">
+										<img
+											class="skill__icon"
+											title="Icono Adaptable"
+											alt="Icono Adaptable"
+											src="assets/img/adaptation.png"
+										/>
+									</div>
+									<h3 class="skills__name soft6">Adaptable</h3>
+								</div>
+								
+								<div class="skills__data">
+									<div class="skills__blob">
+										<img
+											class="skill__icon"
+											title="Icono Aprendizaje Rápido"
+											alt="Icono Aprendizaje Rápido"
+											src="assets/img/learning.png"
+										/>
+									</div>
+									<h3 class="skills__name soft5">Aprendizaje Rápido</h3>
+								</div>	
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--=============== PROJECTS===============-->
+			<section class="projects section" id="projects">
+				<h2 class="section__title">Projects</h2>
+				<span class="section__subtitle">Most recent work</span>
+
+				<div class="container section__border">
+					<div class="projects__container swiper">
+						<div class="swiper-wrapper">
+							<!--=============== PROJECTS 1===============-->
+							<div class="projects__content swiper-slide">
+								<img
+								  class="projects__img"
+								  src="assets/img/landingPage_inkerstellar.png"
+								  alt="landig page"
+							  />
+							  <div>
+								<span class="projects__subtitle">Web</span>
+								<h1 class="projects__title">Landing Page | HTML CSS JS</h1>
+								<a
+									class="projects__link"
+									href="https://alejaes.github.io/Landing-page/"
+									target="_blank"
+									title="proyecto"
+									><i class="uil uil-link-alt work__icon"></i
+								></a>
+								<a
+									class="projects__link"
+									href="https://github.com/AlejaEs/Landing-page"
+									target="_blank"
+									title="repositorio"
+									><i class="uil uil-github work__icon"></i
+								></a> 
+							  </div>
+							</div>
+
+							<!--=============== PROJECTS 2===============-->
+							<div class="projects__content swiper-slide">
+								<img
+								  class="projects__img"
+								  src="assets/img/projectBootcamp.jpg"
+								  alt="landig page"
+							  />
+							  <div>
+								<span class="projects__subtitle">Web</span>
+								<h1 class="projects__title">Shelter Pet App | HTML CSS JS</h1>
+								<a
+									class="projects__link"
+									href="https://rodcar.github.io/shelter-pet-tinder-front-end/index.html"
+									target="_blank"
+									title="proyecto"
+									><i class="uil uil-link-alt work__icon"></i
+								></a>
+								<a
+									class="projects__link"
+									href="https://github.com/rodcar/shelter-pet-tinder-front-end"
+									target="_blank"
+									title="repositorio"
+									><i class="uil uil-github work__icon"></i
+								></a> 
+							  </div>
+							</div>	
+						 </div>
+
+						 <!--Swiper arrows-->
+						<div class="swiper-button-next">
+							<i class="uil uil-angle-right"></i>
+						</div>
+    					<div class="swiper-button-prev">
+							<i class="uil uil-angle-left"></i>
+						</div>
+
+						<!--Swiper pagination-->
+						<div class="swiper-pagination"></div>
+					</div>
+
+							<!--=============== PROJECTS 3===============-->
+							<!-- <div class="projects__content swiper-slide">
+								<img
+								  class="projects__img"
+								  src="assets/img/landingPage_inkerstellar.png"
+								  alt="landig page"
+							  />
+							  <div>
+								<span class="projects__subtitle"></span>
+								<h1 class="projects__title"></h1>
+								<a href="#" class="projects__button"></a>
+							  </div>
+							</div> -->
+
+							<!--=============== PROJECTS 4===============-->
+							<!-- <div class="projects__content swiper-slide" >
+								<img
+								  class="projects__img"
+								  src="assets/img/landingPage_inkerstellar.png"
+								  alt="landig page"
+							  />
+							  <div>
+								<span class="projects__subtitle"></span>
+								<h1 class="projects__title"></h1>
+								<a href="#" class="projects__button"></a>
+							  </div>
+							</div>
+						</div> -->
+
+						<!--<h3 class="work__title">Landing Page | HTML CSS JS</h3>
+						<p class="portafolio__description">
+							Landing Page donde se muestra los diferentes servicios que ofrece
+							la empresa
+						</p>
+					</div>
+				</div>-->
+
+			</section>
+			
+			<!--=============== PROJECT IN MIND===============-->
+			<section class="project section">
+				<div class="project__bg section__border">
+					<div class="project__container container grid">
+						<div class="project__data">
+							<h2 class="project__title">You have a new project</h2>
+							<p class="project__description">
+								Si tienes algún proyecto en mente que quieras llevar a la realidad, no
+								dudes en hacérmelo saber, estaré encantada de trabajar contigo.
+							</p>
+							<a href="#contact" class="button button--flex button--white">
+								Contact Me
+								<i class=" uil uil-message project__icon button__icon"></i>
+							</a>
+						</div>
+						<img src="assets/img/Open Peeps - Bust.png" alt="" class="project__img">
+					</div>
+				</div>
+			</section>
+
+			<!--=============== TESTIMONIAL===============-->
+		<!-- 	<section class="testimonial section">
+				<h2 class="section__title">Testimonial</h2>
+				<span class="section__subtitle">My client saying</span>
+
+				<div class="container section__border">
+					<div class="testimonial__container swiper">
+						<div class="swiper-wrapper">--!>
+							<!--=============== TESTIMONIAL 1 ===============-->
+							<!-- <div class="testimonial__content swiper-slide">
+								<p class="testimonial__description">
+									"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident ipsa neque minus? Rem, ut! 
+									Possimus fuga ipsum aut voluptate sint ea a voluptatem, debitis impedit labore iste molestias dignissimos."
+								</p>
+
+								<div>
+									<h3 class="testimonial__name">Joss Megan</h3>
+									<span class="testimonial__subtitle">Client</span>
+								</div>
+							</div> -->
+
+							<!--=============== TESTIMONIAL 2 ===============-->
+							<!-- <div class="testimonial__content swiper-slide">
+								<p class="testimonial__description">
+									"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident ipsa neque minus? Rem, ut! 
+									Possimus fuga ipsum aut voluptate sint ea a voluptatem, debitis impedit labore iste molestias dignissimos."
+								</p>
+
+								<div>
+									<h3 class="testimonial__name">Martha</h3>
+									<span class="testimonial__subtitle">Client</span>
+								</div>
+							</div> -->
+
+							<!--=============== TESTIMONIAL 3 ===============-->
+						<!-- 	<div class="testimonial__content swiper-slide">
+								<p class="testimonial__description">
+									"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident ipsa neque minus? Rem, ut! 
+									Possimus fuga ipsum aut voluptate sint ea a voluptatem, debitis impedit labore iste molestias dignissimos."
+								</p>
+
+								<div>
+									<h3 class="testimonial__name">Miguel</h3>
+									<span class="testimonial__subtitle">Client</span>
+								</div>
+							</div>
+						</div> -->
+						<!--Swiper arrows-->
+						<!-- <div class="swiper-button-next">
+								<i class="uil uil-angle-right"></i>
+						</div>
+   					<div class="swiper-button-prev">
+							<i class="uil uil-angle-left"></i>
+						</div>
+					</div>
+				</div>
+
+				<img src="assets/img/shape-wawes.svg" alt="testimonial image" class="testimonial__img">
+			</section> --> 
+
+			<!--=============== CONTACT ME ===============-->
+			<section id="contact" class="contact section ">
+				<h2 class="section__title ">Contact Me</h2>
+				<span class="section__subtitle">Get in touch</span>
+
+				<div class="contact__container container grid">
+					<div class="contact__contect">
+						<h3 class="contact__title">Talk to me</h3>
+						<div class="contact__info">
+							<!--Email-->
+							<div class="contact__card">
+								<i class="uil uil-fast-mail contact__card-icon"></i>
+								<h3 class="contact__card-title">Email</h3>
+								<a href="mailto:malejadevqa@gmail.com" rel="noreferrer noopener" target="_blank" class="contact__button">
+									Write me	<i class="uil uil-arrow-circle-right contact__button-icon"></i>
+								</a>
+							</div>
+							<!--WhatsApp-->
+							<div class="contact__card">
+								<i class="uil uil-whatsapp contact__card-icon"></i>
+								<h3 class="contact__card-title">Whatsapp</h3>
+								<a href="https://api.whatsapp.com/send?phone=573502929656&text=Hello,more%20information!" rel="noreferrer noopener" target="_blank" class="contact__button">
+									Write me	<i class="uil uil-arrow-circle-right contact__button-icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="contact__contect">
+						<h3 class="contact__title">Write me your project</h3>
+						<form class="contact__form" id="contact-form" action="" method="post">
+							<div class="contact__form-div">
+								<label class="contact__form-tag" for="name">Nombre Completo</label>
+								<input
+									class="contact__form-input"
+									id="contact-name"
+									type="text"
+									name="user_name"
+									placeholder="Escribe tu nombre"
+									required
+								/>
+							</div>
+							<div class="contact__form-div">
+								<label class="contact__form-tag" for="email">Email </label>
+								<input
+									class="contact__form-input"
+									id="contact-email"
+									type="email"
+									name="user_email"
+									placeholder="example@gmail.com"
+									required
+								/>
+							</div>
+							<div class="contact__form-div contact__form-area">
+								<label class="contact__form-tag" for="mensaje">Project</label>
+								<textarea
+									class="contact__form-input"
+									id="contact-project"
+									name="user_project"
+									cols="30"
+									rows="10"
+									placeholder="Escribe tu project"
+								></textarea>
+							</div>
+
+							<p class="contact__message" id="contact-message"></p>
+
+							<button class="button" type="submit">
+								Enviar
+								<i class="uil uil-message"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+				
+			<!--===== FOOTER =====-->
+			<!--REDES SOCIALES-->
+			<footer class="footer">
+				<div class="footer__container container">
+					<h1 class="footer__title">Aleja</h1>
+					<p class="footer__profile">Web Developer💻</p>
+					<ul class="footer__list">
+						<li>
+							<a href="#home" class="footer__link">Home</a>
+						</li>
+						<li>
+							<a href="#skills" class="footer__link">Skills</a>
+						</li>
+						<li>
+							<a href="#project" class="footer__link">Projects</a>
+						</li>
+					</ul>
+
+					<h3 class="footer__subtitle">🚀Connect with me!</h3>
+					<ul class="footer__social">
+						<a
+							class="footer__social-link"
+							target="_blank"
+							href="https://www.linkedin.com/in/alejandraespinosaj/"
+							><i class="bx bxl-linkedin"></i>
+						</a>					
+						<a
+							class="footer__social-link"
+							target="_blank"
+							href="https://www.instagram.com/malejadev/"
+						>
+							<i class="bx bxl-instagram"></i>
+						</a>
+						<a
+							class="footer__social-link"
+							href="https://github.com/AlejaEs"
+							target="_blank"
+						>
+							<i class="bx bxl-github"></i>
+						</a>
+						<a
+							class="footer__social-link"
+							href="https://twitter.com/CodeGirlDev"
+							target="_blank"
+						>
+							<i class="bx bxl-twitter"></i>
+						</a>
+					</ul>
+					<span class="footer__copy">
+						Made with 💗 CodeGirlDev &copy; 2023. All rights reserved
+					</span>
+				</div>
+			</footer>
+		</main>
+
+		<!--===== SCROLL UP =====-->
+		<a href="#" class="scrollup" id="scroll-up">
+			<i class="uil uil-arrow-up"></i>
+		</a>
+		<!--===== SCROLLREVEAL =====-->
+		<script src="assets/js/scrollreveal.min.js"></script>
+
+		<!--===== SWIPER JS =====-->
+		<script src="assets/js/swiper-bundle.min.js"></script>
+		
+		<!--===== EMAIL JS =====-->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+		<!--===== MAIN JS =====-->
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
